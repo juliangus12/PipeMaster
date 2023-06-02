@@ -1,1 +1,1 @@
-## This is the directory to place scripts or instructions in for recreating the figures that are represented in your publication
+## This directory provides scripts or instructions in for recreating the figures for the CSO Optimization model
