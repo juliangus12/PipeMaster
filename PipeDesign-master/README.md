@@ -22,8 +22,8 @@ Question? Sanjib Sharma sanjibsharma66@gmail.com
 Module Summary
 --------------
 * "dataset" - Directory containing all data needed for simulation and to generate figures used in Sharma et al. 2021. ** (Directory needs seperating into input and output data to be less confusing) **
-  * "cordex" - Directory containing...
-  * "maca" - Directory containing...
+  * "cordex" - Directory containing dynamically downscalled Climate data from 6 Regional Climate Models
+  * "maca" - Directory containing statstically downscalled Climate data from 3 Global Climate Models
 * "projections" - Directory containing code to generate climate projections provided in "dataset"
 * "SourceCodes" - Directory containing functions used for climate projections and SOF calculation for Pipe diameter
   * "Prior2SourceMu.R" - non-Stationary
