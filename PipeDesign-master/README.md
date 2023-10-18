@@ -17,7 +17,6 @@ Question? Sanjib Sharma sanjibsharma66@gmail.com
 
 
 * All scripts provided in this Repository are executed using  R 4.1.2.
-    *  For the steps needed to replicate the exact results and figures presented in this paper, please follow **/Figure/README.md**.
     
 Module Summary
 --------------
@@ -26,7 +25,7 @@ Module Summary
   * "maca" - Directory containing statstically downscalled Climate data from 3 Global Climate Models
 * "projections" - Directory containing code to generate climate projections provided in "dataset"
 * "SourceCodes" - Directory containing functions used for climate projections and SOF calculation for Pipe diameter
-  * "Prior2SourceMu.R" - non-Stationary
+  * "Prior2SourceMu.R" - non-Stationary 
   * "Prior2SourceStat.R" - Stationalry
   * "batchmeans.R"
   * "failureprob_diameter.R" - Reliability function for pipe diameter calculation
@@ -37,4 +36,21 @@ Module Summary
   * "precip_projections.R" - 
 * "SampleFigures" - Directory containing sample figures presented in Sharma et al. 2021
   
+## Reproduce my experiment
+This is a thorough walkthrough of how to use what is in this repository to reproduce results presented in Sharma et al. 2021.
+
+1. Download and unzip the PipeDesgn-Master directory 
+2. Run the scripts in the folowing directories to re-create this experiment:
+
+| Directory Name | Description | 
+| --- | --- | --- |
+| `projection` | Scripts to run the first part of my experiment to build datasets for climate projections| 
+| `SourceCode/failureprob_diameter.R` | Script to run Reliability function for pipe diameter calculations based on projections| 
+
+## Reproduce my figures
+Use the scripts found in the `Figures` directory to reproduce the figures used in this publication.
+
+| Directory Name | Description | 
+| --- | --- | --- |
+| `Figure` | Scripts to run the last part of my experiment to make figures shown in paper| examples of these figures can be found in `PipeDesign-master/SampleFigure` |
 
